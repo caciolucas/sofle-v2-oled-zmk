@@ -51,7 +51,7 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -60,9 +60,9 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   lower:
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -98,12 +98,12 @@ layers:
   - '6'
   - )
   - '|'
-  - {t: ▽, type: trans}
+  - '|'
+  - '}'
+  - '{'
   - '='
   - '-'
   - KP PLUS
-  - '{'
-  - '}'
   - BT CLR ALL
   - BT CLR
   - '['
@@ -112,7 +112,7 @@ layers:
   - '3'
   - \
   - '|'
-  - '&studio_unlock'
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   raise:
   - BT CLR
   - {t: BT, h: '0'}
@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INS
-  - PSCRN
+  - Gui+Sft+4
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,23 +148,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - LEFT ARROW
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - LEFT
   - DOWN ARROW
   - UP ARROW
-  - RIGHT
+  - RIGHT ARROW
   - DEL
   - BSPC
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+Sft+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP PLUS
@@ -173,7 +173,7 @@ layers:
   - '['
   - ']'
   - \
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,7 +182,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
